@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <link rel="shortcut icon" type="image/x-icon" href="https://yt3.ggpht.com/sBww3jpUDqgbOlR0T2QVQLRGtcflOl82Q781W1-kscFsmbhotFZxe504oo-6Ac7O6xiPHLKhzrQ=s176-c-k-c0x00ffffff-no-rj" />
+    <link rel="icon" type="image/ico" href="/favicon.ico" />
+    <title th:text="${title}" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+
+</head>
+<body>
+<header th:insert="blocks/header :: header"></header>
+<div class="container-mt-5">
+    <h1 th:text="${title}"/>
+
+        <hr class="featurette-divider">
+
+        <div class="row">
+            <div class="col-md-7">
+                <h2 class="featurette-heading fw-normal lh-1">Наша Организация</h2>
+                <p class="lead">Наш сайт работает с 2021 года. </p>
+            </div>
+            <div class="col-md-5">
+                <img src="https://img.freepik.com/free-photo/group-of-people-working-out-business-plan-in-an-office_1303-15861.jpg?size=626&ext=jpg&ga=GA1.2.659162793.1664865631&semt=sph"/></img>
+
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading fw-normal lh-1">Свежие новости</h2>
+                <p class="lead">Главные новостные сайты Казахстана. Список самых популярных новостных сайтов Казнета. Главные источники актуальной и объективной информации в стране.
+                   </p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img src="https://img.freepik.com/free-photo/group-of-diverse-people-having-a-business-meeting_53876-25060.jpg?size=626&ext=jpg&ga=GA1.2.659162793.1664865631&semt=sph"/></img>
+
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <div class="row featurette">
+            <div class="col-md-7">
+                <h2 class="featurette-heading fw-normal lh-1">Актуальные проблемы</h2>
+                <p class="lead"> Последние новости из мира технологии, IT индустрия, картина дня, политика, экономика и другие события</p>
+            </div>
+            <div class="col-md-5">
+                <img src="https://img.freepik.com/free-photo/group-of-business-executives-using-laptop-at-their-desk_1170-2010.jpg?size=626&ext=jpg&ga=GA1.2.659162793.1664865631&semt=sph"/></img>
+
+            </div>
+        </div>
+
+        <hr class="featurette-divider">
+
+        <!-- /END THE FEATURETTES -->
+
+    </div>
+
+
+
+</div>
+<div th:insert="blocks/footer :: footer "></div>
+
+</body>
+</html>

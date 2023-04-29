@@ -1,0 +1,518 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
+    <head>
+        <link rel="shortcut icon" type="image/x-icon" href="https://yt3.ggpht.com/sBww3jpUDqgbOlR0T2QVQLRGtcflOl82Q781W1-kscFsmbhotFZxe504oo-6Ac7O6xiPHLKhzrQ=s176-c-k-c0x00ffffff-no-rj" />
+        <link rel="icon" type="image/ico" href="/" />
+        <title th:text="${title}" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    </head>
+    <body>
+    <header th:insert="blocks/header :: header"> </header>
+
+
+    <div class="bd-example">
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class=""></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2" class=""></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active carousel-item-left">
+                    <img class="d-block w-100" data-src="holder.js/800x400?auto=yes&amp;bg=777&amp;fg=555&amp;text=First slide" alt="Первый слайд [800x400]" src="https://static.bluescreen.kz/posts/2022/11/12293/a0e1eeaa6caeef527de91e8cb4004653.jpg?size=1094x540&format=webp&gravity=center" data-holder-rendered="true" _mstalt="2026141">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 _msthash="1731405" _msttexthash="3914417">«Черная пятница» вызвала большой интерес интернет-мошенников</h5>
+                        <p _msthash="1672944" _msttexthash="2135900">ЧЕРНАЯ ПЯТНИЦА ИНТЕРНЕТ-МОШЕННИЧЕСТВО ИНФОРМАЦИОННАЯ БЕЗОПАСНОСТЬ С АО ГТС</p>
+                        <a class="btn btn-lg btn-primary" href="/friday">Подробнее</a>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-item-next carousel-item-left">
+                    <img class="d-block w-100" data-src="holder.js/800x400?auto=yes&amp;bg=666&amp;fg=444&amp;text=Second slide" alt="Второй слайд [800x400]" src="https://static.bluescreen.kz/posts/2022/12/12330/a3c809db6354415d93298f679f4f9f95.jpeg?size=1094x540&format=webp&gravity=center" data-holder-rendered="true" _mstalt="2026037">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 _msthash="1731691" _msttexthash="3916952">SEZIM: казахстанский сервис по развитию ментального здоровья </h5>
+                        <p _msthash="1673217" _msttexthash="2055898">В Казахстане индустрия mental health tech пока находится на ранней стадии развития. Мировой опыт говорит о том, что все больше инвесторов вкладывают средства в стартапы в области ментального здоровья. Свой проект презентовали и казахстанцы — участники Astana Hub. Приложением уже воспользовались более 100 клиентов и провели более 500 сессий.</p>
+                        <a class="btn btn-lg btn-primary" href="/sezim">Подробнее</a>
+                    </div>
+                </div>
+                <div class="carousel-item" _mstvisible="0">
+                    <img class="d-block w-100" data-src="holder.js/800x400?auto=yes&amp;bg=555&amp;fg=333&amp;text=Third slide" alt="Третий слайд [800x400]" src="https://static.bluescreen.kz/posts/2022/12/12322/7d981b52a1da547630020c3069e32b53.jpeg?size=1094x540&format=webp&gravity=center" data-holder-rendered="true" _mstalt="2025634" _mstvisible="1">
+                    <div class="carousel-caption d-none d-md-block" _mstvisible="1">
+                        <h5 _msthash="1731977" _msttexthash="4271033" _mstvisible="2">Что тормозит процесс цифровизации ОСИ в Казахстане?</h5>
+                        <p _msthash="1673490" _msttexthash="2735291" _mstvisible="2">С участием министра цифрового развития Багдата Мусина, вице-министра индустрии Динары Щегловой, а также представителей Комитета ЖКХ, ОСИ, общественных организаций прошел брейншторминг по проблемным вопросам ОСИ и их решения.</p>
+                        <a class="btn btn-lg btn-primary" href="/process">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only" _msthash="1046448" _msttexthash="1619540"></span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only" _msthash="1046656" _msttexthash="1395381"></span>
+            </a>
+        </div>
+    </div>
+    </div>
+
+
+    <div class="album py-5 bg-light">
+        <div class="container">
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="https://static.bluescreen.kz/posts/2022/12/12326/489b0b0882b0d520df970295920c8122.jpeg?size=544x442&format=webp&gravity=center"/></img>
+
+                        <div class="card-body">
+                            <p class="card-text">Уверены, что ваши фото не используют для фейка в социальных сетях?</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a class="btn btn-lg btn-primary" href="/">Подробнее</a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="https://static.bluescreen.kz/posts/2022/12/12321/13ecca179bb365361b7ba81a81468b9b.jpg?size=288x180&format=webp&gravity=center"/></img>
+
+                        <div class="card-body">
+                            <p class="card-text">В Казахстане растет спрос на IT-специалистов</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a class="btn btn-lg btn-primary" href="/">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="https://static.bluescreen.kz/posts/2022/12/12320/adf6565f5ea504a733d455726d5ad59f.jpg?size=288x180&format=webp&gravity=center"/></img>
+
+                        <div class="card-body">
+                            <p class="card-text">Казахстанские стартапы прошли акселератор от Astana Hub и Google for Startups</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a class="btn btn-lg btn-primary" href="/">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="https://static.bluescreen.kz/posts/2022/12/12318/07895e743adcca5d7bef94938d6abb04.jpg?size=288x180&format=webp&gravity=center"/></img>
+
+                        <div class="card-body">
+                            <p class="card-text">ASUS дарит подарки казахстанцам в рамках ZenYear</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a class="btn btn-lg btn-primary" href="/">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="https://static.bluescreen.kz/posts/2022/12/12316/e3742395d9b1772aa47ebe5f7136693b.jpeg?size=288x180&format=webp&gravity=center"/></img>
+
+                        <div class="card-body">
+                            <p class="card-text">Плохое качество интернета в квартирах казахстанцев объяснил Мусин</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a class="btn btn-lg btn-primary" href="/">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="https://static.bluescreen.kz/posts/2022/11/12311/dbbcae770ea88aec0f01c6505a28368e.jpg?size=288x180&format=webp&gravity=center"/></img>
+
+                        <div class="card-body">
+                            <p class="card-text">“Яндекс” запустил платформу по грузоперевозкам в Казахстане</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a class="btn btn-lg btn-primary" href="/">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="https://static.bluescreen.kz/posts/2022/11/12304/6d2adff0dbd14c1e00ed8b12887b0e70.jpg?size=288x180&format=webp&gravity=center"/></img>
+
+                        <div class="card-body">
+                            <p class="card-text">ЭЦП vs QR-подписание. Что лучше?</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a class="btn btn-lg btn-primary" href="/">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="https://static.bluescreen.kz/posts/2022/12/12333/efdcc95a51b73feab51f386bbb7bcaa0.jpg?size=288x180&format=webp&gravity=center"/></img>
+
+                        <div class="card-body">
+                            <p class="card-text">Microsoft и LinkedIn запустили программу цифровых навыков</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a class="btn btn-lg btn-primary" href="/">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="https://static.bluescreen.kz/posts/2022/11/12289/efca56ac44306b51a4994df8610af4b0.jpg?size=544x442&format=webp&gravity=center"/></img>
+
+                        <div class="card-body">
+                            <p class="card-text">В Astana Hub прошел завершающий в этом году PIZZA PITCH November’22</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a class="btn btn-lg btn-primary" href="/">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="album py-5 bg-light">
+        <div class="container">
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="https://static.bluescreen.kz/posts/2022/11/12288/8a3ab3b738831e243a7822e286ff0837.jpg?size=288x180&format=webp&gravity=center"/></img>
+
+                        <div class="card-body">
+                            <p class="card-text">Как отличить скам токены</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a class="btn btn-lg btn-primary" href="/">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="https://static.bluescreen.kz/posts/2022/11/12287/a77d6ef294f337816c26cf9b49a60896.jpg?size=288x180&format=webp&gravity=center"/></img>
+
+                        <div class="card-body">
+                            <p class="card-text">Плюсы внедрения 5G для пользователей</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a class="btn btn-lg btn-primary" href="/">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="https://static.bluescreen.kz/posts/2022/11/12285/5a8607d07f60490e406b3554e37b7d22.jpeg?size=288x180&format=webp&gravity=center"/></img>
+
+                        <div class="card-body">
+                            <p class="card-text">TikTok запускает кампанию о цифровой грамотности в Казахстане</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a class="btn btn-lg btn-primary" href="/">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="https://static.bluescreen.kz/posts/2022/11/12280/3691245e6422e95b2db1dbd34e716695.jpg?size=288x180&format=webp&gravity=center"/></img>
+
+                        <div class="card-body">
+                            <p class="card-text">Как изменится образование в Казахстане: итоги первого дня EdCrunch 2022</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a class="btn btn-lg btn-primary" href="/">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="https://static.bluescreen.kz/posts/2022/11/12268/1e12bb4e92bb16bb30ad9cb2edd501f1.jpg?size=288x180&format=webp&gravity=center"/></img>
+
+                        <div class="card-body">
+                            <p class="card-text">Как действует подмена номера и что такое спуфинг</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a class="btn btn-lg btn-primary" href="/">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="https://static.bluescreen.kz/posts/2022/11/12263/dcde8bf8b98862ae60d45666c8997681.jpg?size=288x180&format=webp&gravity=center"/></img>
+
+                        <div class="card-body">
+                            <p class="card-text">Казахстан на 2 месте среди самых атакуемых криптомайнерами стран</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a class="btn btn-lg btn-primary" href="/">Подробнее</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+        <ul class="article-list">
+            <li>
+                <a href="/news/64148/Dlya-provedeniya-golosovaniya-i-registracii-OSI-predlozhili-ispolzovat-eGov-Mobile/"><img src="https://profit.kz/Content/Images/news/DlyaRegistraciiOSIpredlozhiliIspolzovateGovMobile.jpeg?preset=mini" alt="Для проведения голосования и регистрации ОСИ предложили использовать eGov Mobile"></a>
+                <div>
+                    <h4><a href="/news/64148/Dlya-provedeniya-golosovaniya-i-registracii-OSI-predlozhili-ispolzovat-eGov-Mobile/">Для проведения голосования и регистрации ОСИ предложили использовать eGov Mobile</a></h4>
+                    <p>Эксперты обсудили актуальные проблемы ОСИ.</p>
+                    <time datetime="2022-12-05T10:00:00+06:00">05.12.2022</time><a class="comment-balloon" href="/news/64148/Dlya-provedeniya-golosovaniya-i-registracii-OSI-predlozhili-ispolzovat-eGov-Mobile/#mc-container"><span class="balloon0">0</span></a>
+                </div>
+            </li>
+            <li>
+                <a href="/news/64147/Kitajskaya-kompaniya-postroit-vetrovuu-elektrostanciu-v-Kazahstane/"><img src="https://profit.kz/Content/Images/Vetroelectrostanciya.jpg?preset=mini" alt="Китайская компания построит ветровую электростанцию в&nbsp;Казахстане"></a>
+                <div>
+                    <h4><a href="/news/64147/Kitajskaya-kompaniya-postroit-vetrovuu-elektrostanciu-v-Kazahstane/">Китайская компания построит ветровую электростанцию в&nbsp;Казахстане</a></h4>
+                    <p>Установленная мощность проекта составляет 50&nbsp;МВт.</p>
+                    <time datetime="2022-12-05T09:00:00+06:00">05.12.2022</time><a class="comment-balloon" href="/news/64147/Kitajskaya-kompaniya-postroit-vetrovuu-elektrostanciu-v-Kazahstane/#mc-container"><span class="balloon0">0</span></a>
+                </div>
+            </li>
+            <li>
+                <a href="/news/64146/Bagdat-Musin-predstavil-senatoram-zakon-o-geodezii-i-prostranstvennih-dannih/"><img src="https://profit.kz/Content/Images/KazakhstanKarta.png?preset=mini" alt="Багдат Мусин представил сенаторам закон о геодезии и пространственных данных"></a>
+                <div>
+                    <h4><a href="/news/64146/Bagdat-Musin-predstavil-senatoram-zakon-o-geodezii-i-prostranstvennih-dannih/">Багдат Мусин представил сенаторам закон о геодезии и пространственных данных</a></h4>
+                    <p>На одной платформе в едином формате будут созданы пространственные данные для эффективного использования достоверной, оперативной и актуальной информации.</p>
+                    <time datetime="2022-12-02T15:30:00+06:00">02.12.2022</time><a class="comment-balloon" href="/news/64146/Bagdat-Musin-predstavil-senatoram-zakon-o-geodezii-i-prostranstvennih-dannih/#mc-container"><span class="balloon0">0</span></a>
+                </div>
+            </li>
+            <li>
+                <a href="/news/64139/Operatorov-svyazi-v-Kazahstane-oshtrafovali-na-300-mln-tenge-za-tri-mesyaca/"><img src="https://profit.kz/Content/Images/SotovayaSvyazBazovayaStanciya.JPG?preset=mini" alt="Операторов связи в&nbsp;Казахстане оштрафовали на&nbsp;300 млн тенге за&nbsp;три месяца"></a>
+                <div>
+                    <h4><a href="/news/64139/Operatorov-svyazi-v-Kazahstane-oshtrafovali-na-300-mln-tenge-za-tri-mesyaca/">Операторов связи в&nbsp;Казахстане оштрафовали на&nbsp;300 млн тенге за&nbsp;три месяца</a></h4>
+                    <p>Размер штрафов увеличили в&nbsp;сентябре.</p>
+                    <time datetime="2022-12-02T10:00:00+06:00">02.12.2022</time><a class="comment-balloon" href="/news/64139/Operatorov-svyazi-v-Kazahstane-oshtrafovali-na-300-mln-tenge-za-tri-mesyaca/#mc-container"><span class="balloon0">0</span></a>
+                </div>
+            </li>
+            <li>
+                <a href="/news/64136/Predstavlen-nacionalnij-doklad-Rinok-truda-Kazahstana-na-puti-k-cifrovoj-realnosti/"><img src="https://profit.kz/Content/Images/news/RinokTrudaKazahstanaNaPutiKcifrovojRealnosti.jpg?preset=mini" alt="Представлен национальный доклад «Рынок труда Казахстана: на&nbsp;пути к&nbsp;цифровой реальности»"></a>
+                <div>
+                    <h4><a href="/news/64136/Predstavlen-nacionalnij-doklad-Rinok-truda-Kazahstana-na-puti-k-cifrovoj-realnosti/">Представлен национальный доклад «Рынок труда Казахстана: на&nbsp;пути к&nbsp;цифровой реальности»</a></h4>
+                    <p>Благодаря цифровой экосистеме занятости у&nbsp;граждан есть возможность освоить новые навыки&nbsp;— президент Центра развития трудовых ресурсов.</p>
+                    <time datetime="2022-12-02T09:00:00+06:00">02.12.2022</time><a class="comment-balloon" href="/news/64136/Predstavlen-nacionalnij-doklad-Rinok-truda-Kazahstana-na-puti-k-cifrovoj-realnosti/#mc-container"><span class="balloon0">0</span></a>
+                </div>
+            </li>
+            <li>
+                <a href="/news/64134/Samruk-azina-KazMunajGaz-i-francuzskaya-Total-Eren-postroyat-vetropark-na-ugo-vostoke-RK/"><img src="https://profit.kz/Content/Images/news/TotalErenPostroetVetroparkNaUgoVostokeRK.jpg?preset=mini" alt="Самрук-Қазына, КазМунайГаз и&nbsp;французская Total Eren построят ветропарк на&nbsp;юго-востоке РК"></a>
+                <div>
+                    <h4><a href="/news/64134/Samruk-azina-KazMunajGaz-i-francuzskaya-Total-Eren-postroyat-vetropark-na-ugo-vostoke-RK/">Самрук-Қазына, КазМунайГаз и&nbsp;французская Total Eren построят ветропарк на&nbsp;юго-востоке РК</a></h4>
+                    <p>В&nbsp;присутствии Главы государства подписано межправительственное соглашение.</p>
+                    <time datetime="2022-12-01T11:00:00+06:00">01.12.2022</time><a class="comment-balloon" href="/news/64134/Samruk-azina-KazMunajGaz-i-francuzskaya-Total-Eren-postroyat-vetropark-na-ugo-vostoke-RK/#mc-container"><span class="balloon0">0</span></a>
+                </div>
+            </li>
+            <li>
+                <a href="/news/64133/Evrazijskij-bank-razvitiya-obyavil-o-konkurse-cifrovih-proektov/"><img src="https://profit.kz/Content/Images/news/TotalErenPostroetVetroparkNaUgoVostokeRK.jpg?preset=mini" alt="Евразийский банк развития объявил о конкурсе цифровых проектов"></a>
+                <div>
+                    <h4><a href="/news/64133/Evrazijskij-bank-razvitiya-obyavil-o-konkurse-cifrovih-proektov/">Евразийский банк развития объявил о конкурсе цифровых проектов</a></h4>
+                    <p>Они должны быть актуальными и иметь интеграционный фактор.</p>
+                    <time datetime="2022-12-01T10:00:00+06:00">01.12.2022</time><a class="comment-balloon" href="/news/64133/Evrazijskij-bank-razvitiya-obyavil-o-konkurse-cifrovih-proektov/#mc-container"><span class="balloon0">0</span></a>
+                </div>
+            </li>
+            <li>
+                <a href="/news/64132/V-Kirgizstane-hotyat-postroit-solnechnuu-elektrostanciu/"><img src="https://profit.kz/Content/Images/Solar.jpg?preset=mini" alt="В Кыргызстане хотят построить солнечную электростанцию"></a>
+                <div>
+                    <h4><a href="/news/64132/V-Kirgizstane-hotyat-postroit-solnechnuu-elektrostanciu/">В Кыргызстане хотят построить солнечную электростанцию</a></h4>
+                    <p>Международная финансовая корпорация (IFC) поможет Кыргызстану построить солнечную электростанцию мощностью 100 мегаватт.</p>
+                    <time datetime="2022-12-01T07:00:00+06:00">01.12.2022</time><a class="comment-balloon" href="/news/64132/V-Kirgizstane-hotyat-postroit-solnechnuu-elektrostanciu/#mc-container"><span class="balloon0">0</span></a>
+                </div>
+            </li>
+            <li>
+                <a href="/news/64137/Smozhet-li-QR-kod-polnostu-zamenit-ECP/"><img src="https://profit.kz/Content/Images/ECP.jpg?preset=mini" alt="Сможет&nbsp;ли QR-код полностью заменить ЭЦП?"></a>
+                <div>
+                    <h4><a href="/news/64137/Smozhet-li-QR-kod-polnostu-zamenit-ECP/">Сможет&nbsp;ли QR-код полностью заменить ЭЦП?</a></h4>
+                    <p>Подписание документов с&nbsp;помощью QR-кода&nbsp;— это альтернативный метод.</p>
+                    <time datetime="2022-11-30T16:57:00+06:00">30.11.2022</time><a class="comment-balloon" href="/news/64137/Smozhet-li-QR-kod-polnostu-zamenit-ECP/#mc-container"><span class="balloon0">0</span></a>
+                </div>
+            </li>
+            <li>
+                <a href="/news/64135/Obem-neobankovskih-tranzakcij-previsit-3-trilliona-dollarov-v-2022-godu/"><img src="https://profit.kz/Content/Images/OnlinePay.jpg?preset=mini" alt="Объем необанковских транзакций превысит 3 триллиона долларов в 2022 году"></a>
+                <div>
+                    <h4><a href="/news/64135/Obem-neobankovskih-tranzakcij-previsit-3-trilliona-dollarov-v-2022-godu/">Объем необанковских транзакций превысит 3 триллиона долларов в 2022 году</a></h4>
+                    <p>Операции в необанкинге растут со среднегодовым темпом в 44%.</p>
+                    <time datetime="2022-11-30T15:41:00+06:00">30.11.2022</time><a class="comment-balloon" href="/news/64135/Obem-neobankovskih-tranzakcij-previsit-3-trilliona-dollarov-v-2022-godu/#mc-container"><span class="balloon0">0</span></a>
+                </div>
+            </li>
+            <li>
+                <a href="/news/64130/Nacionalnij-bank-Kazahstana-preduprezhdaet-o-fejkovih-soobscheniyah-i-rassilkah-o-Cifrovom-tenge/"><img src="https://profit.kz/Content/Images/news/FakeCifrovoiTenge.jpg?preset=mini" alt="Национальный банк Казахстана предупреждает о фейковых сообщениях и рассылках о Цифровом тенге"></a>
+                <div>
+                    <h4><a href="/news/64130/Nacionalnij-bank-Kazahstana-preduprezhdaet-o-fejkovih-soobscheniyah-i-rassilkah-o-Cifrovom-tenge/">Национальный банк Казахстана предупреждает о фейковых сообщениях и рассылках о Цифровом тенге</a></h4>
+                    <p>Цифровой тенге не заменит наличные или безналичные деньги, а будет использоваться параллельно.</p>
+                    <time datetime="2022-11-30T15:00:00+06:00">30.11.2022</time><a class="comment-balloon" href="/news/64130/Nacionalnij-bank-Kazahstana-preduprezhdaet-o-fejkovih-soobscheniyah-i-rassilkah-o-Cifrovom-tenge/#mc-container"><span class="balloon0">0</span></a>
+                </div>
+            </li>
+            <li>
+                <a href="/news/64129/Poluchit-proaktivnie-uslugi-kazahstanci-smogut-cherez-push-uvedomleniya-v-prilozheniyah-BVU/"><img src="https://profit.kz/Content/Images/SmartfonMobile.jpg?preset=mini" alt="Получить проактивные услуги казахстанцы смогут через push-уведомления в&nbsp;приложениях БВУ"></a>
+                <div>
+                    <h4><a href="/news/64129/Poluchit-proaktivnie-uslugi-kazahstanci-smogut-cherez-push-uvedomleniya-v-prilozheniyah-BVU/">Получить проактивные услуги казахстанцы смогут через push-уведомления в&nbsp;приложениях БВУ</a></h4>
+                    <p>Это делается для более широкого охвата граждан цифровыми услугами.</p>
+                    <time datetime="2022-11-30T14:00:00+06:00">30.11.2022</time><a class="comment-balloon" href="/news/64129/Poluchit-proaktivnie-uslugi-kazahstanci-smogut-cherez-push-uvedomleniya-v-prilozheniyah-BVU/#mc-container"><span class="balloon0">0</span></a>
+                </div>
+            </li>
+            <li>
+                <a href="/news/64128/Internet-moshennichestva-vizvali-shirokij-obschestvennij-rezonans/"><img src="https://profit.kz/Content/Images/MoshennikiKZcertSecurityBezopasnostInternet.png?preset=mini?preset=mini" alt="Интернет-мошенничества вызвали широкий общественный резонанс"></a>
+                <div>
+                    <h4><a href="/news/64128/Internet-moshennichestva-vizvali-shirokij-obschestvennij-rezonans/">Интернет-мошенничества вызвали широкий общественный резонанс</a></h4>
+                    <p>В этом году зарегистрировано более 18,5 тыс. преступлений.</p>
+                    <time datetime="2022-11-30T12:00:00+06:00">30.11.2022</time><a class="comment-balloon" href="/news/64128/Internet-moshennichestva-vizvali-shirokij-obschestvennij-rezonans/#mc-container"><span class="balloon0">0</span></a>
+                </div>
+            </li>
+            <li>
+                <a href="/news/64127/Vsego-5-zayavok-malo-kto-reshilsya-haknut-Minoboroni-no-voennie-ne-sdautsya/"><img src="https://profit.kz/Content/Images/NotebookIT.jpg?preset=mini" alt="Всего 5 заявок: мало кто решился хакнуть Минобороны, но военные не сдаются"></a>
+                <div>
+                    <h4><a href="/news/64127/Vsego-5-zayavok-malo-kto-reshilsya-haknut-Minoboroni-no-voennie-ne-sdautsya/">Всего 5 заявок: мало кто решился хакнуть Минобороны, но военные не сдаются</a></h4>
+                    <p>Министерство обороны определило победителей первого хакатона, однако решило не завершать конкурс IT-проектов.</p>
+                    <time datetime="2022-11-30T11:00:00+06:00">30.11.2022</time><a class="comment-balloon" href="/news/64127/Vsego-5-zayavok-malo-kto-reshilsya-haknut-Minoboroni-no-voennie-ne-sdautsya/#mc-container"><span class="balloon0">0</span></a>
+                </div>
+            </li>
+            <li>
+                <a href="/news/64126/Zhitelej-Ekibastuza-obespechili-besplatnoj-svyazu/"><img src="https://profit.kz/Content/Images/PhoneMobile.jpeg?preset=mini" alt="Жителей Экибастуза обеспечили бесплатной связью"></a>
+                <div>
+                    <h4><a href="/news/64126/Zhitelej-Ekibastuza-obespechili-besplatnoj-svyazu/">Жителей Экибастуза обеспечили бесплатной связью</a></h4>
+                    <p>Более 160 тыс. абонентов смогут в течение месяца совершать звонки и пользоваться мобильным интернетом.</p>
+                    <time datetime="2022-11-30T10:05:00+06:00">30.11.2022</time><a class="comment-balloon" href="/news/64126/Zhitelej-Ekibastuza-obespechili-besplatnoj-svyazu/#mc-container"><span class="balloon0">0</span></a>
+                </div>
+            </li>
+            <li>
+                <a href="/news/64125/V-Kazahstane-ocifruut-migraciu-v-tom-chisle-trudovuu/"><img src="/https://profit.kz/Content/Images/Cifrovizaciya.png?preset=mini" alt="В&nbsp;Казахстане «оцифруют» миграцию, в&nbsp;том числе трудовую"></a>
+                <div>
+                    <h4><a href="/news/64125/V-Kazahstane-ocifruut-migraciu-v-tom-chisle-trudovuu/">В&nbsp;Казахстане «оцифруют» миграцию, в&nbsp;том числе трудовую</a></h4>
+                    <p>Это позволит эффективно выявлять факты нарушения миграционного законодательства.</p>
+                    <time datetime="2022-11-30T08:55:00+06:00">30.11.2022</time><a class="comment-balloon" href="/news/64125/V-Kazahstane-ocifruut-migraciu-v-tom-chisle-trudovuu/#mc-container"><span class="balloon0">0</span></a>
+                </div>
+            </li>
+            <li>
+                <a href="/news/64123/1-trillion-tenge-obschij-obem-privlechennih-investicij-v-sektor-VIE/"><img src="https://profit.kz/Content/Images/VozobnovlyaemayaEnergya.jpg?preset=mini" alt="1 триллион тенге - общий объем привлеченных инвестиций в сектор ВИЭ"></a>
+                <div>
+                    <h4><a href="/news/64123/1-trillion-tenge-obschij-obem-privlechennih-investicij-v-sektor-VIE/">1 триллион тенге - общий объем привлеченных инвестиций в сектор ВИЭ</a></h4>
+                    <p>Сейчас 6% установленной мощности в энергобалансе страны приходится на ВИЭ.</p>
+                    <time datetime="2022-11-29T12:43:00+06:00">29.11.2022</time><a class="comment-balloon" href="/news/64123/1-trillion-tenge-obschij-obem-privlechennih-investicij-v-sektor-VIE/#mc-container"><span class="balloon0">0</span></a>
+                </div>
+            </li>
+            <li>
+                <a href="/news/64122/Nacionalnij-cifrovoj-karernij-centr-dlya-studentov-i-vipusknikov-zarabotaet-na-baze-MFCA/"><img src="https://profit.kz/Content/Images/news/NacionalnijCifrovojKarernijCentrMFCA.JPG?preset=mini" alt="Национальный цифровой карьерный центр для студентов и выпускников заработает на базе МФЦА"></a>
+                <div>
+                    <h4><a href="/news/64122/Nacionalnij-cifrovoj-karernij-centr-dlya-studentov-i-vipusknikov-zarabotaet-na-baze-MFCA/">Национальный цифровой карьерный центр для студентов и выпускников заработает на базе МФЦА</a></h4>
+                    <p>Он даст объективную картину трудоустройства молодых специалистов в стране.</p>
+                    <time datetime="2022-11-29T10:00:00+06:00">29.11.2022</time><a class="comment-balloon" href="/news/64122/Nacionalnij-cifrovoj-karernij-centr-dlya-studentov-i-vipusknikov-zarabotaet-na-baze-MFCA/#mc-container"><span class="balloon0">0</span></a>
+                </div>
+            </li>
+            <li>
+                <a href="/news/64121/Bagdat-Musin-vstretilsya-s-zhitelyami-Almati/"><img src="https://profit.kz/Content/Images/news/BagdatMusinVstretilsyaSzhitelyamiAlmati.jpeg?preset=mini" alt="Багдат Мусин встретился с&nbsp;жителями Алматы"></a>
+                <div>
+                    <h4><a href="/news/64121/Bagdat-Musin-vstretilsya-s-zhitelyami-Almati/">Багдат Мусин встретился с&nbsp;жителями Алматы</a></h4>
+                    <p>По&nbsp;итогам работы с&nbsp;операторами связи в&nbsp;городе установлено 8&nbsp;новых базовых станций, улучшено&nbsp;5.</p>
+                    <time datetime="2022-11-28T10:00:00+06:00">28.11.2022</time><a class="comment-balloon" href="/news/64121/Bagdat-Musin-vstretilsya-s-zhitelyami-Almati/#mc-container"><span class="balloon0">0</span></a>
+                </div>
+            </li>
+            <li>
+                <a href="/news/64119/V-Astane-projdet-molodezhnij-ivent-Digital-Fest-STARTAPHANA/"><img src="https://profit.kz/Content/Images/articles/DigitalFestSTARTAPHANA.jpg?preset=mini" alt="В Астане пройдет молодежный ивент Digital Fest STARTUPHANA"></a>
+                <div>
+                    <h4><a href="/news/64119/V-Astane-projdet-molodezhnij-ivent-Digital-Fest-STARTAPHANA/">В Астане пройдет молодежный ивент Digital Fest STARTUPHANA</a></h4>
+                    <p>Его проведет Международный технопарк ИТ-стартапов Astana Hub.</p>
+                    <time datetime="2022-11-25T16:20:00+06:00">25.11.2022</time><a class="comment-balloon" href="/news/64119/V-Astane-projdet-molodezhnij-ivent-Digital-Fest-STARTAPHANA/#mc-container"><span class="balloon0">0</span></a>
+                </div>
+            </li>
+            <li>
+                <a href="/news/64117/Beeline-Kazahstan-ujdet-v-pryamoe-podchinenie-Veon/"><img src="https://profit.kz/Content/Images/news/BeelineVeon.png?preset=mini" alt="Beeline Казахстан уйдет в прямое подчинение Veon"></a>
+                <div>
+                    <h4><a href="/news/64117/Beeline-Kazahstan-ujdet-v-pryamoe-podchinenie-Veon/">Beeline Казахстан уйдет в прямое подчинение Veon</a></h4>
+                    <p>Это связано с продажей российского бизнеса Veon.</p>
+                    <time datetime="2022-11-25T15:39:00+06:00">25.11.2022</time><a class="comment-balloon" href="/news/64117/Beeline-Kazahstan-ujdet-v-pryamoe-podchinenie-Veon/#mc-container"><span class="balloon0">0</span></a>
+                </div>
+            </li>
+            <li>
+                <a href="/news/64115/KazdorNII-predstavil-IT-instrument-dlya-povisheniya-kachestva-dorog/"><img src="https://profit.kz/Content/Images/GruzovikPerevozkiTransport.jpg?preset=mini" alt="КаздорНИИ представил IT-инструмент для повышения качества дорог"></a>
+                <div>
+                    <h4><a href="/news/64115/KazdorNII-predstavil-IT-instrument-dlya-povisheniya-kachestva-dorog/">КаздорНИИ представил IT-инструмент для повышения качества дорог</a></h4>
+                    <p>Единая база будет учитывать климатическую зону дороги и все подходящие по климату материалы и методы.</p>
+                    <time datetime="2022-11-25T12:05:00+06:00">25.11.2022</time><a class="comment-balloon" href="/news/64115/KazdorNII-predstavil-IT-instrument-dlya-povisheniya-kachestva-dorog/#mc-container"><span class="balloon0">0</span></a>
+                </div>
+            </li>
+            <li>
+                <a href="/news/64114/Mobilnoe-prilozhenie-dlya-kazahstanskih-voditelej-razrabotal-KazAvtoZhol/"><img src="https://profit.kz/Content/Images/news/Sapar.png?preset=mini" alt="Мобильное приложение для казахстанских водителей разработал КазАвтоЖол"></a>
+                <div>
+                    <h4><a href="/news/64114/Mobilnoe-prilozhenie-dlya-kazahstanskih-voditelej-razrabotal-KazAvtoZhol/">Мобильное приложение для казахстанских водителей разработал КазАвтоЖол</a></h4>
+                    <p>Маршрут в&nbsp;нем можно построить в&nbsp;онлайн- и&nbsp;офлайн-режимах.</p>
+                    <time datetime="2022-11-25T11:06:00+06:00">25.11.2022</time><a class="comment-balloon" href="/news/64114/Mobilnoe-prilozhenie-dlya-kazahstanskih-voditelej-razrabotal-KazAvtoZhol/#mc-container"><span class="balloon0">0</span></a>
+                </div>
+            </li>
+            <li>
+                <a href="/news/64113/V-Kazahstane-utverdili-trebovaniya-po-informatizacii-v-detsadah-shkolah-i-kolledzhah/"><img src="https://profit.kz/Content/Images/CifraDigitalNotebook.jpg?preset=mini" alt="В&nbsp;Казахстане утвердили требования по&nbsp;информатизации в&nbsp;детсадах, школах и&nbsp;колледжах"></a>
+                <div>
+                    <h4><a href="/news/64113/V-Kazahstane-utverdili-trebovaniya-po-informatizacii-v-detsadah-shkolah-i-kolledzhah/">В&nbsp;Казахстане утвердили требования по&nbsp;информатизации в&nbsp;детсадах, школах и&nbsp;колледжах</a></h4>
+                    <p>Утверждены минимальные требования к&nbsp;объектам информатизации в&nbsp;детсадах, школах и&nbsp;колледжах.</p>
+                    <time datetime="2022-11-25T09:00:00+06:00">25.11.2022</time><a class="comment-balloon" href="/news/64113/V-Kazahstane-utverdili-trebovaniya-po-informatizacii-v-detsadah-shkolah-i-kolledzhah/#mc-container"><span class="balloon0">0</span></a>
+                </div>
+            </li>
+            <li>
+                <a href="/news/64112/Anons-vebinar-LeverX-po-avtomatizacii-HR-menedzhmenta/"><img src="https://profit.kz/Content/Images/news/LeverXvebinar.jpg?preset=mini" alt="Анонс: вебинар LeverX по&nbsp;автоматизации HR-менеджмента"></a>
+                <div>
+                    <h4><a href="/news/64112/Anons-vebinar-LeverX-po-avtomatizacii-HR-menedzhmenta/">Анонс: вебинар LeverX по&nbsp;автоматизации HR-менеджмента</a></h4>
+                    <p>30&nbsp;ноября компания LeverX&nbsp;Group проведет бесплатный вебинар по&nbsp;улучшению процессов управления кадрами с&nbsp;помощью решения SAP SuccessFactors.</p>
+                    <time datetime="2022-11-25T08:00:00+06:00">25.11.2022</time><a class="comment-balloon" href="/news/64112/Anons-vebinar-LeverX-po-avtomatizacii-HR-menedzhmenta/#mc-container"><span class="balloon0">0</span></a>
+                </div>
+            </li>
+        </ul>
+
+        <div class="p-4">
+            <h4 class="fst-italic">Archives</h4>
+            <ol class="list-unstyled mb-0">
+                <li><a href="#">March 2021</a></li>
+                <li><a href="#">February 2021</a></li>
+                <li><a href="#">January 2021</a></li>
+                <li><a href="#">December 2020</a></li>
+                <li><a href="#">November 2020</a></li>
+                <li><a href="#">October 2020</a></li>
+                <li><a href="#">September 2020</a></li>
+                <li><a href="#">August 2020</a></li>
+                <li><a href="#">July 2020</a></li>
+                <li><a href="#">June 2020</a></li>
+                <li><a href="#">May 2020</a></li>
+                <li><a href="#">April 2020</a></li>
+            </ol>
+        </div>
+        <div th:insert="blocks/footer :: footer "> </div>
+           <script scr="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+           <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+           <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+           <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+       </div>
+    </body>
+</html>
